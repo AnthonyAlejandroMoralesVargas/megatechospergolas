@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - AlumVidrio</title>
+    <meta name="description" content="Explore nuestro catálogo completo de productos de aluminio y vidrio: ventanas, puertas, divisiones, pasamanos y más.">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/logo.svg" alt="AlumVidrio Logo">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <button class="mobile-menu-button" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="catalogo.html" class="active">Catálogo</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Catálogo de Productos</h1>
+                <p>Explore nuestra amplia gama de soluciones en aluminio y vidrio</p>
+            </div>
+        </section>
+
+        <section class="catalog-filters section">
+            <div class="container">
+                <div class="filter-container">
+                    <h2>Filtrar por categoría</h2>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">Todos</button>
+                        <button class="filter-btn" data-filter="ventanas">Ventanas</button>
+                        <button class="filter-btn" data-filter="puertas">Puertas</button>
+                        <button class="filter-btn" data-filter="cubiertas">Cubiertas</button>
+                        <button class="filter-btn" data-filter="pasamanos">Pasamanos</button>
+                        <button class="filter-btn" data-filter="cortinas">Cortinas de Baño</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog-grid section">
+            <div class="container">
+                <div class="catalog-container">
+                    <!-- Ventanas -->
+                    <div class="catalog-item" data-category="ventanas">
+                        <div class="catalog-image">
+                            <img src="https://images.unsplash.com/photo-1501045337096-542a73dafa4f" alt="Ventana Corrediza">
+                        </div>
+                        <div class="catalog-info">
+                            <h3>Ventana Corrediza</h3>
+                            <p class="catalog-code">Código: VCR-001</p>
+                            <p>Ventana de aluminio con sistema corredizo, ideal para espacios donde se requiere optimizar el área de apertura.</p>
+                            <div class="catalog-features">
+                                <span><i class="fas fa-check"></i> Perfil de 3"</span>
+                                <span><i class="fas fa-check"></i> Vidrio de 6mm</span>
+                                <span><i class="fas fa-check"></i> Sistema anti-ruido</span>
+                            </div>
+                            <a href="contacto.html" class="btn btn-primary">Solicitar cotización</a>
+                        </div>
+                    </div>
+
+                    <div class="catalog-item" data-category="ventanas">
+                        <div class="catalog-image">
+                            <img src="https://images.unsplash.com/photo-1614818382087-2a348d26db3a" alt="Ventana Proyectante">
+                        </div>
+                        <div class="catalog-info">
+                            <h3>Ventana Proyectante</h3>
+                            <p class="catalog-code">Código: VPR-002</p>
+                            <p>Ventana con apertura hacia el exterior que permite una excelente ventilación y vista, ideal para áreas que requieren control de aire.</p>
+                            <div class="catalog-features">
+                                <span><i class="fas fa-check"></i> Perfil de 4"</span>
+                                <span><i class="fas fa-check"></i> Vidrio templado</span>
+                                <span><i class="fas fa-check"></i> Herraje italiano</span>
+                            </div>
+                            <a href="contacto.html" class="btn btn-primary">Solicitar cotización</a>
+                        </div>
+                    </div>
+
+                    <!-- Puertas -->
+                    <div class="catalog-item" data-category="puertas">
+                        <div class="catalog-image">
+                            <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae" alt="Puerta Batiente">
+                        </div>
+                        <div class="catalog-info">
+                            <h3>Puerta Batiente</h3>
+                            <p class="catalog-code">Código: PBT-001</p>
+                            <p>Puerta de aluminio con sistema batiente, disponible con paneles de vidrio o aluminio, ideal para entradas principales.</p>
+                            <div class="catalog-features">
+                                <span><i class="fas fa-check"></i> Perfil reforzado</span>
+                                <span><i class="fas fa-check"></i> Vidrio de 8mm</span>
+                                <span><i class="fas fa-check"></i> Cierre de seguridad</span>
+                            </div>
+                            <a href="contacto.html" class="btn btn-primary">Solicitar cotización</a>
+                        </div>
+                    </div>
+
+                    <div class="catalog-item" data-category="puertas">
+                        <div class="catalog-image">
+                            <img src="https://images.unsplash.com/photo-1519817650390-64a93db51149" alt="Puerta Corrediza">
+                        </div>
+                        <div class="catalog-info">
+                            <h3>Puerta Corrediza</h3>
+                            <p class="catalog-code">Código: PCR-002</p>
+                            <p>Puerta con sistema deslizante que ahorra espacio y brinda un aspecto moderno, ideal para terrazas o divisiones interiores.</p>
+                            <div class="catalog-features">
+                                <span><i class="fas fa-check"></i> Rodamientos silenciosos</span>
+                                <span><i class="fas fa-check"></i> Vidrio templado</span>
+                                <span><i class="fas fa-check"></i> Sistema anti-descarrilamiento</span>
+                            </div>
+                            <a href="contacto.html" class="btn btn-primary">Solicitar cotización</a>
+                        </div>
+                    </div>
+
+                    <!-- Cubiertas -->
+                    <div class="catalog-item" data-category="cubiertas">
+                        <div class="catalog-image">
+                            <img src="https://images.unsplash.com/photo-1675517112958-2d49a3cf1b08" alt="Cubierta Plana">
+                        </div>
+                        <div class="catalog-info">
+                            <h3>Cubierta Plana</h3>
+                            <p class="catalog-code">Código: CPL-001</p>
+                            <p>Cubierta de vidrio con estructura de aluminio para patios, terrazas o entradas, que permite el paso de luz natural mientras protege de la intemperie.</p>
+                            <div class="catalog-features">
+                                <span><i class="fas fa-check"></i> Vidrio laminado</span>
+                                <span><i class="fas fa-check"></i> Estructura reforzada</span>
+                                <span><i class="fas fa-check"></i> Sistema de drenaje</span>
+                            </div>
+                            <a href="contacto.html" class="btn btn-primary">Solicitar cotización</a>
+                        </div>
+                    </div>
+
+                    <div class="catalog-item" data-category="cubiertas">
+                        <div class="catalog-image">
+                            <img src="https://images.unsplash.com/photo-1737953580739-49d57339315a" alt="Cubierta Inclinada">
+                        </div>
+                        <div class="catalog-info">
+                            <h3>Cubierta Inclinada</h3>
+                            <p class="catalog-code">Código: CIN-002</p>
+                            <p>Cubierta con diseño inclinado que facilita el escurrimiento del agua y resiste condiciones climáticas adversas.</p>
+                            <div class="catalog-features">
+                                <span><i class="fas fa-check"></i> Vidrio con filtro UV</span>
+                                <span><i class="fas fa-check"></i> Inclinación personalizable</span>
+                                <span><i class="fas fa-check"></i> Alta resistencia</span>
+                            </div>
+                            <a href="contacto.html" class="btn btn-primary">Solicitar cotización</a>
+                        </div>
+                    </div>
+
+                    <!-- Pasamanos -->
+                    <div class="catalog-item" data-category="pasamanos">
+                        <div class="catalog-image">
+                            <img src="https://images.unsplash.com/photo-1668967596409-cb6fa3f0f518" alt="Pasamanos Minimalista">
+                        </div>
+                        <div class="catalog-info">
+                            <h3>Pasamanos Minimalista</h3>
+                            <p class="catalog-code">Código: PMN-001</p>
+                            <p>Pasamanos de aluminio con diseño limpio y moderno, ideal para escaleras, balcones y terrazas.</p>
+                            <div class="catalog-features">
+                                <span><i class="fas fa-check"></i> Aluminio anodizado</span>
+                                <span><i class="fas fa-check"></i> Instalación empotrada</span>
+                                <span><i class="fas fa-check"></i> Acabado a elección</span>
+                            </div>
+                            <a href="contacto.html" class="btn btn-primary">Solicitar cotización</a>
+                        </div>
+                    </div>
+
+                    <div class="catalog-item" data-category="pasamanos">
+                        <div class="catalog-image">
+                            <img src="https://images.unsplash.com/photo-1517327017130-196393c792e7" alt="Pasamanos con Vidrio">
+                        </div>
+                        <div class="catalog-info">
+                            <h3>Pasamanos con Vidrio</h3>
+                            <p class="catalog-code">Código: PVD-002</p>
+                            <p>Barandilla moderna que combina aluminio y vidrio templado, brindando seguridad sin obstaculizar las vistas.</p>
+                            <div class="catalog-features">
+                                <span><i class="fas fa-check"></i> Vidrio templado de 10mm</span>
+                                <span><i class="fas fa-check"></i> Soporte de aluminio</span>
+                                <span><i class="fas fa-check"></i> Certificación de seguridad</span>
+                            </div>
+                            <a href="contacto.html" class="btn btn-primary">Solicitar cotización</a>
+                        </div>
+                    </div>
+
+                    <!-- Cortinas de Baño -->
+                    <div class="catalog-item" data-category="cortinas">
+                        <div class="catalog-image">
+                            <img src="https://images.unsplash.com/photo-1552143232-454554411763" alt="Mampara Corrediza">
+                        </div>
+                        <div class="catalog-info">
+                            <h3>Mampara Corrediza</h3>
+                            <p class="catalog-code">Código: MCR-001</p>
+                            <p>Mampara de ducha con puertas corredizas de vidrio templado y perfiles de aluminio, ideal para optimizar el espacio del baño.</p>
+                            <div class="catalog-features">
+                                <span><i class="fas fa-check"></i> Vidrio templado 8mm</span>
+                                <span><i class="fas fa-check"></i> Herrajes inoxidables</span>
+                                <span><i class="fas fa-check"></i> Tratamiento antical</span>
+                            </div>
+                            <a href="contacto.html" class="btn btn-primary">Solicitar cotización</a>
+                        </div>
+                    </div>
+
+                    <div class="catalog-item" data-category="cortinas">
+                        <div class="catalog-image">
+                            <img src="https://images.unsplash.com/photo-1619520166358-8544b195c05b" alt="Mampara Abatible">
+                        </div>
+                        <div class="catalog-info">
+                            <h3>Mampara Abatible</h3>
+                            <p class="catalog-code">Código: MAB-002</p>
+                            <p>División de baño con puerta abatible, ideal para espacios amplios donde se requiere un acceso cómodo a la ducha.</p>
+                            <div class="catalog-features">
+                                <span><i class="fas fa-check"></i> Vidrio templado 10mm</span>
+                                <span><i class="fas fa-check"></i> Bisagras de acero</span>
+                                <span><i class="fas fa-check"></i> Amplio ángulo de apertura</span>
+                            </div>
+                            <a href="contacto.html" class="btn btn-primary">Solicitar cotización</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="section primary-bg">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>¿No encuentra lo que busca?</h2>
+                    <p>Ofrecemos soluciones personalizadas a medida</p>
+                    <a href="contacto.html" class="btn btn-light">Contáctenos</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../assets/logo.svg" alt="AlumVidrio Logo">
+                    <p>Soluciones en aluminio y vidrio para hogares y negocios.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="catalogo.html">Catálogo</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Principal #123, Ciudad</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@alumvidrio.com</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 AlumVidrio. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script>
+        // Catalog filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const catalogItems = document.querySelectorAll('.catalog-item');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Get filter value
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Filter items
+                    catalogItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'flex';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
