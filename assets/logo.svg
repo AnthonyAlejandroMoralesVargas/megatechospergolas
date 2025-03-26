@@ -1,0 +1,10 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Aluminum frame shape -->
+  <rect x="10" y="10" width="40" height="40" rx="2" ry="2" fill="none" stroke="#1E88E5" stroke-width="4"/>
+  <!-- Glass pane -->
+  <rect x="15" y="15" width="30" height="30" rx="1" ry="1" fill="#81D4FA" fill-opacity="0.6"/>
+  <!-- Company name -->
+  <text x="60" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333333">ALUMVIDRIO</text>
+  <!-- Tagline -->
+  <text x="60" y="50" font-family="Arial, sans-serif" font-size="10" fill="#666666">Soluciones en aluminio y vidrio</text>
+</svg>
